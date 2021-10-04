@@ -74,6 +74,12 @@ public class createAccountLoginPage extends BaseClass  {
 		
 	}
 	
+public void Logout()  {
+		
+		ldriver.quit();
+		
+	}
+	
 	
 	
 	
