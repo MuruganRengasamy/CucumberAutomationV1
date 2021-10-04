@@ -1,12 +1,12 @@
 
 Feature:Register
                                               
-  Scenario: user Register
+  Scenario: User Register
     Given User login Chrome Browser
     When Users open URL "http://automationpractice.com/index.php"
     And Click sign in
-    Then User can view Create Account Page
-    When User Enter email as "email@gmail.com"
+  Then User can view Create Account Page
+  When User Enter email as "email@gmail.com"
     And User  click on Create Account button
    Scenario:Personal Information
     When User enter PersonalFirstName as "Krithick"
@@ -23,6 +23,15 @@ Feature:Register
     And User enter Mobile Number as "9780504020"
     And User enter Alias Address as "Nellai"
     And User click Register button
+    Scenario: Purchase
+    When User click Add to the card
+    And User click Tshirt
+    And User select tshirt
+    And User click to the Add to the card
+    And User click proceed to checkout
+    Scenario: User Logout
+    When User logout this page
+    
     
     
  
