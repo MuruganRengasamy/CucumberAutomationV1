@@ -18,7 +18,7 @@ import pageObject.createAccountLoginPage;
 public class Steps extends BaseClass {
 
 	WebDriver ldriver;
-	createAccountLoginPage	createAccountLoginPageObject;
+	//createAccountLoginPage	createAccountLoginPageObject;
 	
 	
 
@@ -65,6 +65,102 @@ public void user_click_on_Create_Account_button() throws InterruptedException {
 	createAccountLoginPageObject.click_on_Create_Account_btn();
   
 }
+
+@When("User enter PersonalFirstName as {string}")
+public void user_enter_PersonalFirstName_as(String string) {
+   
+}
+
+@When("User enter RersonalLastName as {string}")
+public void user_enter_RersonalLastName_as(String string) {
+   
+}
+
+@When("User enter PersonalPassword as {string}")
+public void user_enter_PersonalPassword_as(String string) {
+    
+}
+
+@When("user enter FirstName as {string}")
+public void user_enter_FirstName_as(String string) {
+   
+}
+
+@When("User enter LastName as {string}")
+public void user_enter_LastName_as(String string) {
+   
+}
+
+@When("User enter Address as {string}")
+public void user_enter_Address_as(String string) {
+    
+}
+
+@When("User enter City as {string}")
+public void user_enter_City_as(String string) {
+   
+}
+
+@When("User select State as {string}")
+public void user_select_State_as(String string) {
+    
+}
+
+@When("User enter Postal Code as {string}")
+public void user_enter_Postal_Code_as(String string) {
+   
+}
+
+@When("User enter Country as {string}")
+public void user_enter_Country_as(String string) {
+    
+}
+
+@When("User enter Mobile Number as {string}")
+public void user_enter_Mobile_Number_as(String string) {
+   
+}
+
+@When("User enter Alias Address as {string}")
+public void user_enter_Alias_Address_as(String string) {
+   
+}
+
+@When("User click Register button")
+public void user_click_Register_button() {
+   
+}
+@When("User click Add to the card")
+public void user_click_Add_to_the_card() {
+ 
+}
+
+@When("User click Tshirt")
+public void user_click_Tshirt() {
+  
+}
+
+@When("User select tshirt")
+public void user_select_tshirt() {
+   
+}
+
+@When("User click to the Add to the card")
+public void user_click_to_the_Add_to_the_card() {
+   
+}
+
+@When("User click proceed to checkout")
+public void user_click_proceed_to_checkout() {
+   
+}
+
+
+@When("User logout this page")
+public void user_logout_this_page() {
+   
+}
+
 
 
 

@@ -10,7 +10,8 @@ public class BaseClass {
 	public WebDriver ldriver;
 	//public createAccountLoginPage createAccountLoginPageObject;
 	//public createAccountPage createAccountPageObject;
-
+	//createAccountLoginPage	createAccountLoginPageObject;
+	createAccountLoginPage	createAccountLoginPageObject;
 	
 		public static String createRandomString()
 		{
